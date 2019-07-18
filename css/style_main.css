@@ -1,8 +1,179 @@
-body{
-  background-color:blueviolet;
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header{
     width: 100%;
     height: 100px;
-    background: turquoise;
+    background: #005582;
+    position: fixed; 
+}
+#sidebar_btn{
+  width: 5%;
+  height: 100px;
+  float: left;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+#info_empresa{
+  width: 20%;
+  height: 100px;
+  float: left;
+  text-align: center;
+  padding-top: 25px;
+  color: #FCD238;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#searchSection{
+  width: 50%;
+  height: 100px;
+  padding: 15px;
+  float: left;
+}
+nav{
+  background: #005582;
+}
+
+#loginSection{
+  width: 25%;
+  height: 100px;
+  float: left;
+  padding: 5px;
+  color: white;
+  
+}
+#foto{
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  float: left;
+  background: #78CCE2;
+}
+#name_content{
+  width: auto;
+  float: left;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.material-icons{
+  color: white;
+}
+
+.material-icons:hover{
+  opacity: 0.5;
+}
+
+.items{
+  font-size: 30px;
+}
+
+.cuerpo{
+ /* margin-top: 100px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: red;
+  overflow: hidden;*/
+}
+
+
+main{
+  margin-top: 100px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: gray;
+
+}
+#sidebar{
+  margin-top: 100px;
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  background: #E4EFF0;
+  padding: 20px;
+  margin-left: auto;
+}
+#logo{
+  margin: auto;
+}
+
+.waves-effect:hover{
+  text-decoration: none;
+}
+
+#logo_empresa{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: gray;
+  margin-left:auto;
+  margin-right:auto;
+  left:0;
+  right:0;
+}
+
+
+#sidebar_left{
+  width: 100px;
+  /*width: 200px;
+  height: 100%;
+  position: relative;
+  background: #E4EFF0;
+  float: left;*/
+}
+
+#content{
+  width: 65%;
+  height: 100%;
+  position: fixed;
+  overflow: scroll;
+  left: 20%;
+  background: #f5f5f5;
+}
+
+#notification_section{
+  width: 15%;
+  height: 100%;
+  background: #E4EFF0;
+  position: absolute;
+  left: 85%;
+  text-align: center;
+  margin: auto;
+  overflow: scroll;
+  align-content: center;
+}
+
+#notification_btn{
+  margin-top: 5px;
+  width: 80%;
+}
+
+.card{
+  margin-left:auto;
+  margin-right:auto;
+  left:0;
+  right:0;
+  background-color: #E4EFF0;
+}
+
+#loading{
+  position: absolute;
+  margin-top: 250px;
+  margin-left:auto;
+  margin-right:auto;
+  left:0;
+  right:0;
+}
+
+#etiqueta_section{
+  background: gray;
 }
