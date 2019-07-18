@@ -1,0 +1,68 @@
+@media screen and (max-width: 1024px){
+
+    #sidebar_btn, #contenido-pc, #sidebar, #contenido-movil{
+      display: none;
+    }
+    header{
+        position: relative;
+    }
+    #content{
+      width: 80%;
+      left: 0%;
+      position: absolute;
+    }
+  
+    main{
+      position: relative;
+      margin-top: 0;
+      height: 1300px;
+    }
+  
+    #notification_section{
+      width: 20%;
+      left: 80%;
+    }
+  
+    #contenido-tablet{
+      display: block;
+    }
+  
+    #listaOpciones{
+      width: 40%;
+      float: left;
+      padding: 16px;
+    }
+  
+    #main_tablet {
+      background: #E4EFF0;
+      width: 500px;
+      position: absolute;
+      font-size: 25px;
+    }
+    
+    #loginSection_tablet{
+      display: block;
+      width: 30%;
+      text-align: end;
+      float: left;
+      padding-top: 30px;
+      padding-right: 20px;
+      color: white;
+    }
+  
+    #info_empresa_tablet{
+      display: block;
+      width: 30%;
+      float: left;
+      padding-top: 23px;
+    }
+  
+    #searchSection_tablet{
+        display: block;
+        background: #E4EFF0;
+    }
+  
+    .mim{
+      background: #005582;
+    }
+  }
