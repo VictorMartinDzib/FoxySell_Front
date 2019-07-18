@@ -60,6 +60,50 @@
         </div>
     </header>
 
+    <!-- HEADER PARA TABLETAS-->
+
+    <header id="menu_tablet" class="navbar navbar-expand-lg navbar-light">
+
+
+        <ul class="navbar-nav mr-auto" id="listaOpciones">
+            <li class="nav-item dropdown">
+                    <a href="#" class="sidenav_trigger" data-target="menu-side" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                            <i class="medium material-icons">menu</i>
+                    </a>
+                <div id="main_tablet" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#"><i class="material-icons mim">home</i>    Inicio</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"><i class="material-icons mim">input</i>    Caja</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"><i class="material-icons mim">local_library</i>    Inventario</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"><i class="material-icons mim">show_chart</i>    Estadisticas</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"><i class="material-icons mim">monetization_on</i>   Ventas</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"><i class="material-icons mim">local_grocery_store</i>   Compras</a><div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"><i class="material-icons mim">payment</i>   Productos</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"><i class="material-icons">people</i>    Usuarios</a>
+                </div>
+            </li>
+        </ul>
+
+        <div id="info_empresa_tablet">
+                <h1 id="name_empresa"><i>FoxySell</i></h1>
+        </div>
+
+        <div id="loginSection_tablet">
+                <a class="waves-effect waves-light btn-small">Cerrar sesión</a>
+        </div>
+
+        </div>
+    </header>
+
+    <!--FIN DE HEADER PARA TABLETAS-->
+
+
     <main>
         <ul id="sidebar" class="sidenav" style="transform: translateX(0%);">
             <li id="logo">
@@ -95,6 +139,22 @@
         </ul>
 
         <div id="content">
+
+            <div id="searchSection_tablet">
+                <!--<input type="text" name="" id="" placeholder="Buscar">-->
+                <nav>
+                    <div class="nav-wrapper">
+                        <form>
+                            <div class="input-field">
+                                <input placeholder="Buscar sección o producto" id="search" type="search" required>
+                                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                                <i class="material-icons">close</i>
+                            </div>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+
             <div class="navbar navbar-light bg-light" id="etiqueta_section">
                 <span class="navbar-brand mb-0 h1">Inicio</span>
             </div>
@@ -115,6 +175,8 @@
             AQUI VA EL CONTENIDO DE CADA SECCION
 
         </div>
+
+
 
         <div id="notification_section">
             <a id="notification_btn" class="waves-effect waves-light btn">NOTIFICACIONES</a>
